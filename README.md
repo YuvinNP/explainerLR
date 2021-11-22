@@ -14,4 +14,4 @@ Needs to pass all the catergorical and numerical column names seperately,
 Needs to pass categorical column values and numerical column values seperately
 
 ## Installation
-````here ```
+```here ```
