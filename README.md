@@ -1,1 +1,1 @@
-## explainerLLR - Local Rule Based Explanations for black box models
+## explainerLR - Local Rule Based Explanations for black box models
