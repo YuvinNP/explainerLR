@@ -1,4 +1,4 @@
-## explainerLR - Local Rule Based Explanations for black box models
+# explainerLR - Local Rule Based Explanations for black box models
 
 explainerLR is a local rule based explanation method which provides rules for given instance that needs to be predicted
 As inputs, it needs,
