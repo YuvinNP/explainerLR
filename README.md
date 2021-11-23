@@ -14,4 +14,7 @@ Needs to pass all the catergorical and numerical column names seperately,
 Needs to pass categorical column values and numerical column values seperately
 
 ## Installation
-```here ```
+```pip install -i https://test.pypi.org/simple/ explainerlr ```
+
+## Usage
+```explainerlr.fit_data(n, <Encoded instance that needs to be predicted>, X_train, y_train, <columns>, <target>, <onehot encoder>, <label encoder>) ```
