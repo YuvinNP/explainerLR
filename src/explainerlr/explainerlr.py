@@ -315,7 +315,7 @@ def counterfactual_rules(current, expected_change, class_name, target):
                   
     return output
 
-def fit_data(n, X_test, y_test, X_train, y_train, columns, class_v, ohe, le):
+def fit_data(n, X_test, X_train, y_train, columns, class_v, ohe, le):
     print("Loading........................................")
     explainer_rule = {}
     all_rules = []
@@ -370,7 +370,7 @@ def fit_data(n, X_test, y_test, X_train, y_train, columns, class_v, ohe, le):
     return df, all_rules
 
 
-def fit_data_for_num(n, X_test, y_test, X_train, y_train, cat_enc, num_val, class_v, ohe, le, cat_cols, num_cols):
+def fit_data_for_num(n, X_test, X_train, y_train, cat_enc, num_val, class_v, ohe, le, cat_cols, num_cols):
     print("Loading........................................")
     explainer_rule = {}
     all_rules = []
