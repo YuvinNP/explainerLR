@@ -16,5 +16,11 @@ Needs to pass categorical column values and numerical column values seperately
 ## Installation
 ```pip install -i https://test.pypi.org/simple/ explainerlr ```
 
+## Pre-requisites
+```pip install pandas ```
+```pip install pickle-mixin ```
+```pip install chefboost ```
+
+
 ## Usage
 ```explainerlr.fit_data(n, <Encoded instance that needs to be predicted>, X_train, y_train, <columns>, <target>, <onehot encoder>, <label encoder>) ```
