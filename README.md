@@ -24,3 +24,9 @@ Needs to pass categorical column values and numerical column values seperately
 
 ## Usage
 ```explainerlr.fit_data(n, <Encoded instance that needs to be predicted>, X_train, y_train, <columns>, <target>, <onehot encoder>, <label encoder>) ```
+
+```for key in explainerlr.decode_data(ohe, X_test[1:2], ['buying','maint','doors','persons','lug_boot','safety'])[1].columns:
+        explanation_rule[key] = explainerlr.decode_data(ohe, X_test[1:2], ['buying','maint','doors','persons','lug_boot','safety'])[1][key].values[0]
+    
+explanation_rule['class'] = 'None'
+predicted_result = explainerlr.model_predict(explanation_rule, 'class')```
